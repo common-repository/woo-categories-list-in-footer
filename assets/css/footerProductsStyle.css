@@ -1,0 +1,21 @@
+ul.product-categories.columns {
+list-style: none;
+width: 100%;
+margin: 0;
+}
+li.column {
+}
+.column>ul {
+list-style: none;
+}
+.column>ul>li.cat-item {
+margin-bottom: 1em;
+}
+@media screen and (min-width:768px){
+  ul.product-categories.columns {
+		display: table;
+  }
+  li.column {
+  	display: table-cell;
+  }
+}

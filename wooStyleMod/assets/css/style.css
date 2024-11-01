@@ -1,0 +1,244 @@
+body, button, input, textarea {
+    font-family: "Roboto", "Helvetica Neue", sans-serif!important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", "Helvetica Neue", sans-serif!important;
+    font-weight: 300!important;
+	letter-spacing: auto!important;
+}
+#page a {
+    font-weight: 400;
+}
+
+#masthead{
+    padding-top: 0;
+}
+#masthead.site-header{
+   background-color: transparent!important;
+}
+#page .site-footer {
+    padding-top: 4em;
+  }
+
+.site-logo {
+	padding-left: 1em;
+}
+.site-title>a{
+font-family: Yanone Kaffeesatz
+}
+
+.woocommerce-active .site-header .col-full {
+    background-color: #fff;
+    padding-top: 1em;
+}
+
+.woocommerce-breadcrumb {
+	margin-bottom: 2em;
+}
+
+header.site-header .site-branding {
+    margin-left: 1em;
+  margin-right: 0;
+}
+
+header.site-header .site-search>.widget_product_search {
+    margin-right: 1em;
+}
+
+header.site-header .secondary-navigation {
+    width: 43%;
+}
+footer {
+font-size: 12px;
+}
+
+#site-navigation.wooHeaderProducts {
+    padding: 25px 1em;
+    background-color: #557291;
+}
+
+#site-navigation.wooHeaderProducts .product-categories>li>a {
+    color: #fff;
+    text-shadow: none;
+}
+
+#site-navigation.wooHeaderProducts li ul{
+    padding: 5px 0;
+}
+
+#site-navigation button.menu-toggle {
+    margin: 0;
+}
+#site-navigation.toggled ul {
+    display: block;
+}
+
+.woocommerce-active .site-header .site-header-cart{
+    padding-top: 1em;
+}
+.site-header-cart .widget_shopping_cart {
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 0.4em 1em rgba(0,0,0,0.1);
+}
+ul.site-header-cart.menu:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+ul.cart_list.product_list_widget {  
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.woocommerce-active .site-header .site-header-cart .button {
+  width: 100%;
+}
+
+.woocommerce-active .site-header .site-header-cart .button.checkout {
+	margin-top: 1em;
+}
+
+header.site-header .site-header-cart .cart-contents {
+    padding: 0 1em 1em;
+}
+
+.storefront-product-section {
+    margin-bottom: 2em;
+}
+#content>.col-full,
+footer>.col-full{
+    padding: 0 2em;
+}
+
+#content>.col-full{
+    background-color: #fff;
+  }
+#content .content-area{
+  margin-bottom: 0;
+  }
+
+ul.products {
+	margin-bottom: 0;
+}
+
+ul.products li.product {
+	margin-bottom: 2em;
+}
+
+ul.products li.product h3 {
+  min-height: 66px;
+}
+
+.storefront-product-section {
+    margin-bottom: 2em;
+}
+
+section.storefront-slideshow-section{
+  margin: -4.236em -2em 2em;
+  box-shadow: none;
+  }
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart {
+  font-weight: normal;
+  border-radius: 2px;
+}
+a:focus, .button:focus, .button.alt:focus, .button.added_to_cart:focus, .button.wc-forward:focus, button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {
+      outline-color: transparent;
+}
+  
+/*
+	Single product page
+*/
+body.single-product #secondary {
+	display: none;
+}
+body.single-product #primary {
+	width: 100%;
+	float: auto;
+}
+/*
+	Decorative elements
+*/
+.onsale::before {
+    border-width: 10px 10px 10px 0;
+    content: " ";
+    left: -10px;
+    position: absolute;
+    top: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-right-color: #de3f3e;
+}
+.onsale:after {
+    position: absolute;
+    content: " ";
+    background-color: #fff;
+    width: 4px;
+    height: 4px;
+    left: -2px;
+    top: 9px;
+    border-radius: 2px;
+}
+.onsale {
+		background-color: #de3f3e;
+    border: none;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+    padding: 0 6px;
+    position: relative;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+      height: 21px;
+  vertical-align: middle;  
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+.price ins .amount {
+    color: #de3f3e;
+}
+
+.quantity .plus,
+.quantity .minus{
+  color: #fff;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px)
+{
+  body {
+    font-size: 18px;
+  }
+  .col-full {
+      max-width: 1200px;
+  }
+  #site-navigation ul.nav-menu > li:first-child {
+        margin-left: 0;
+    }
+    #site-navigation ul.nav-menu > li > a {
+        padding: 0.857em 1.3em;
+    }
+    #site-navigation.main-navigation.wooHeaderProducts {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+  body {
+    font-size: 18px;
+  }
+  .col-full {
+      max-width: 1200px;
+  }
+  #site-navigation ul.nav-menu > li:first-child {
+        margin-left: 0;
+    }
+    #site-navigation ul.nav-menu > li > a {
+        padding: 0.857em 1.2em;
+    }
+    #site-navigation.main-navigation.wooHeaderProducts {
+        width: 78.261%;
+    }
+}
